@@ -1,0 +1,364 @@
+MARK GOLDSTEIN
+						Database of Bank Accounts
+
+First 	   Last       Social Security# Account#	  Account Type   Balance    Status 
+ 
+/---------------------------------------------------------------------------------\
+Grace      Hopper     000000001        100001     Savings        $   4600.00 Open   
+\---------------------------------------------------------------------------------/
+Steve      Woz        000000002        100002     Savings        $      0.00 Open   
+\---------------------------------------------------------------------------------/
+Joel       Spoksky    000000003        100003     Checkings      $      6.00 Open   
+\---------------------------------------------------------------------------------/
+Mark       Zuckerberg 000000004        100004     CD             $   1337.13 Open   
+\---------------------------------------------------------------------------------/
+Yukihiro   Matsumoto  000000005        100005     CD             $   2300.00 Open   
+\---------------------------------------------------------------------------------/
+Paul       Allen      000000006        100006     Savings        $      6.43 Open   
+\---------------------------------------------------------------------------------/
+Donald     Knuth      000000007        100007     Checkings      $   9001.00 Open   
+\---------------------------------------------------------------------------------/
+John       Carmack    000000008        100008     CD             $   6000.32 Open   
+\---------------------------------------------------------------------------------/
+Larry      David      000000009        100009     CD             $      4.45 Open   
+\---------------------------------------------------------------------------------/
+Barach     Spinoza    000000010        100010     Checkings      $     16.77 Open   
+\---------------------------------------------------------------------------------/
+Total in CD:           $   9641.90
+Total in Savings:      $   4606.43
+Total in Checkings:    $   9023.77
+Total Amount in Bank:  $  23272.10
+
+Transaction Requested: Create New Account
+New CD Account with account number "222223" 
+with social security number "121212127 was created. 
+The Maturity date is:11 24 2019
+
+Transaction Requested: Withdrawal
+Account Number: 222223
+Old Balance: $300.00 
+Amount to Withdrawal: $49.00
+Cannot Witdraw! CD maturity date not met.
+Your Maturity Date is(yyyy-mm-dd):
+2019 11 24
+That's 12 months away
+Balance is: $300.00
+
+Transaction Requested: Create New Account
+New CD Account with account number "222222" 
+with social security number "121212126 was created. 
+The Maturity date is:10 22 2018
+
+Transaction Requested: Withdrawal
+Account Number: 222222
+Old Balance: $300.00 
+Amount to Withdrawal: $49.00
+New Balance: $251.00
+
+Transaction Requested: Balance Inquiry
+Account Number: 100002
+Current Balance: $0.00
+
+Transaction Requested: Balance Inquiry
+Error: Account number 122221 does not exist.
+
+Transaction Requested: Deposit
+Account Number: 100006
+Old Balance: $6.43
+Amount to Deposit: 1000.43 
+New Balance: $1006.86
+
+Transaction Requested: Deposit
+Account Number: 100002
+Error: $-23.34 is an invalid amount
+
+Transaction Requested: Deposit
+Error: Account number 122224 does not exist.
+
+Transaction Requested: Withdrawal
+Error: Withdrawal must be numbers!
+
+Transaction Requested: Withdrawal
+Account Number: 100003
+Error: $-12000.00 is an invalid amount
+
+Transaction Requested: Withdrawal
+Account Number: 100003
+Error: Insufficient funds!
+You cannot take out $31000.0 You currently have $6.00
+
+Transaction Requested: Withdrawal
+Error: Account number 134243 does not exist
+
+Transaction Requested: Create New Account
+New Savings Account with account number "200001" 
+with social security number "100000001
+was created.
+
+Transaction Requested: Create New Account
+New Checkings Account with account number "200002" 
+with social security number "100000002
+was created.
+
+Transaction Requested: Create New Account
+New CD Account with account number "200003" 
+with social security number "100000003 was created. 
+The Maturity date is:10 29 2020
+
+Transaction Requested: Create New Account
+New Checkings Account with account number "300002" 
+with social security number "121212185
+was created.
+
+Transaction Requested: Create New Account
+New CD Account with account number "121245" 
+with social security number "121234984 was created. 
+The Maturity date is:10 23 2018
+
+Transaction Requested: Withdrawal
+Account Number: 300002
+Old Balance: $400.00 
+Amount to Withdrawal: $40.00
+New Balance: $358.50
+
+Transaction Requested: Withdrawal
+Account Number: 200003
+Old Balance: $20.00 
+Amount to Withdrawal: $20.00
+Cannot Witdraw! CD maturity date not met.
+Your Maturity Date is(yyyy-mm-dd):
+2020 10 29
+That's 24 months away
+Balance is: $20.00
+
+Transaction Requested: Withdrawal
+Account Number: 121245
+Old Balance: $430.00 
+Amount to Withdrawal: $30.00
+New Balance: $400.00
+
+Transaction Requested: Withdrawal
+Account Number: 100009
+Error: Insufficient funds!
+You cannot take out $10.0 You currently have $4.45
+
+Transaction Requested: Deposit
+Account Number: 100007
+Old Balance: $9001.00
+Amount to Deposit: 34.00 
+Invalid Date on check. Cannot deposit!
+New Balance: $9001.00
+
+Transaction Requested: Deposit
+Account Number: 200002
+Old Balance: $40.00
+Amount to Deposit: 200.00 
+Invalid Date on check. Cannot deposit!
+New Balance: $40.00
+
+Transaction Requested: Deposit
+Account Number: 100010
+Old Balance: $16.77
+Amount to Deposit: 200.00 
+Invalid Date on check. Cannot deposit!
+New Balance: $16.77
+
+Transaction Requested: Withdrawal
+Account Number: 222223
+Old Balance: $300.00 
+Amount to Withdrawal: $10.00
+Cannot Witdraw! CD maturity date not met.
+Your Maturity Date is(yyyy-mm-dd):
+2019 11 24
+That's 12 months away
+Balance is: $300.00
+
+Transaction Requested: Withdrawal
+Account Number: 100010
+Error: Insufficient funds!
+You cannot take out $100.0 You currently have $16.77
+
+Transaction Requested: Withdrawal
+Account Number: 100007
+Old Balance: $9001.00 
+Amount to Withdrawal: $300.00
+New Balance: $8701.00
+
+Transaction Requested: Withdrawal
+Account Number: 200002
+Error: Insufficient funds!
+You cannot take out $100.0 You currently have $40.00
+
+Transaction Requested: Withdrawal
+Account Number: 100005
+Old Balance: $2300.00 
+Amount to Withdrawal: $100.00
+Cannot Witdraw! CD maturity date not met.
+Your Maturity Date is(yyyy-mm-dd):
+2018 11 26
+That's 0 months away
+Balance is: $2300.00
+
+Transaction Requested: Withdrawal
+Account Number: 100009
+Old Balance: $4.45 
+Amount to Withdrawal: $2.00
+Cannot Witdraw! CD maturity date not met.
+Your Maturity Date is(yyyy-mm-dd):
+2019 4 12
+That's 12 months away
+Balance is: $4.45
+
+Transaction Requested: Withdrawal
+Account Number: 121245
+Old Balance: $400.00 
+Amount to Withdrawal: $1.00
+New Balance: $399.00
+
+Transaction Requested: Withdrawal
+Account Number: 200002
+Old Balance: $40.00 
+Amount to Withdrawal: $20.00
+New Balance: $18.50
+
+Transaction Requested: Withdrawal
+Account Number: 100009
+Error: Insufficient funds!
+You cannot take out $12.0 You currently have $4.45
+
+Transaction Requested: Withdrawal
+Account Number: 100004
+Old Balance: $1337.13 
+Amount to Withdrawal: $499.00
+New Balance: $838.13
+
+Final Database:
+
+						Database of Bank Accounts
+
+First 	   Last       Social Security# Account#	  Account Type   Balance    Status 
+ 
+/---------------------------------------------------------------------------------\
+Grace      Hopper     000000001        100001     Savings        $   4600.00 Open   
+ 
+Transaction History:  
+Open Account         $          4600.00
+\---------------------------------------------------------------------------------/
+Steve      Woz        000000002        100002     Savings        $      0.00 Open   
+ 
+Transaction History:  
+Open Account         $             0.00
+Balance Inquiry      $             0.00
+\---------------------------------------------------------------------------------/
+Joel       Spoksky    000000003        100003     Checkings      $      6.00 Open   
+ 
+Transaction History:  
+Open Account         $             6.00
+\---------------------------------------------------------------------------------/
+Mark       Zuckerberg 000000004        100004     CD             $    838.13 Open   
+Format (yyyy-mm-dd) 
+Current Date: 2018 11 2
+Maturity Date:2018 10 25
+ 
+Transaction History:  
+Open Account         $          1337.13
+Withdrawal CD        $           499.00
+\---------------------------------------------------------------------------------/
+Yukihiro   Matsumoto  000000005        100005     CD             $   2300.00 Open   
+Format (yyyy-mm-dd) 
+Current Date: 2018 11 2
+Maturity Date:2018 11 26
+ 
+Transaction History:  
+Open Account         $          2300.00
+\---------------------------------------------------------------------------------/
+Paul       Allen      000000006        100006     Savings        $   1006.86 Open   
+ 
+Transaction History:  
+Open Account         $             6.43
+Deposit              $          1000.43
+\---------------------------------------------------------------------------------/
+Donald     Knuth      000000007        100007     Checkings      $   8701.00 Open   
+ 
+Transaction History:  
+Open Account         $          9001.00
+Withdrawal           $           300.00
+\---------------------------------------------------------------------------------/
+John       Carmack    000000008        100008     CD             $   6000.32 Open   
+Format (yyyy-mm-dd) 
+Current Date: 2018 11 2
+Maturity Date:2020 9 12
+ 
+Transaction History:  
+Open Account         $          6000.32
+\---------------------------------------------------------------------------------/
+Larry      David      000000009        100009     CD             $      4.45 Open   
+Format (yyyy-mm-dd) 
+Current Date: 2018 11 2
+Maturity Date:2019 4 12
+ 
+Transaction History:  
+Open Account         $             4.45
+\---------------------------------------------------------------------------------/
+Barach     Spinoza    000000010        100010     Checkings      $     16.77 Open   
+ 
+Transaction History:  
+Open Account         $            16.77
+\---------------------------------------------------------------------------------/
+Save       Funle      121212127        222223     CD             $    300.00 Open   
+Format (yyyy-mm-dd) 
+Current Date: 2018 11 2
+Maturity Date:2019 11 24
+ 
+Transaction History:  
+Open Account         $           300.00
+\---------------------------------------------------------------------------------/
+Mary       Shmit      121212126        222222     CD             $    251.00 Open   
+Format (yyyy-mm-dd) 
+Current Date: 2018 11 2
+Maturity Date:2018 10 22
+ 
+Transaction History:  
+Open Account         $           300.00
+Withdrawal CD        $            49.00
+\---------------------------------------------------------------------------------/
+Mark       Goldstein  100000001        200001     Savings        $    200.00 Open   
+ 
+Transaction History:  
+Open Account         $           200.00
+\---------------------------------------------------------------------------------/
+Barry      Bonds      100000002        200002     Checkings      $     18.50 Open   
+ 
+Transaction History:  
+Open Account         $            40.00
+Withdrawal+$1.50 fee $            21.50
+\---------------------------------------------------------------------------------/
+Joe        Ritz       100000003        200003     CD             $     20.00 Open   
+Format (yyyy-mm-dd) 
+Current Date: 2018 11 2
+Maturity Date:2020 10 29
+ 
+Transaction History:  
+Open Account         $            20.00
+\---------------------------------------------------------------------------------/
+Anton      Zabirqo    121212185        300002     Checkings      $    358.50 Open   
+ 
+Transaction History:  
+Open Account         $           400.00
+Withdrawal+$1.50 fee $            41.50
+\---------------------------------------------------------------------------------/
+Tammy      Yarmolie   121234984        121245     CD             $    399.00 Open   
+Format (yyyy-mm-dd) 
+Current Date: 2018 11 2
+Maturity Date:2018 10 23
+ 
+Transaction History:  
+Open Account         $           430.00
+Withdrawal CD        $            30.00
+Withdrawal CD        $             1.00
+\---------------------------------------------------------------------------------/
+Total in CD:           $  11270.90
+Total in Savings:      $   5806.86
+Total in Checkings:    $   9100.77
+Total Amount in Bank:  $  26178.53
+
